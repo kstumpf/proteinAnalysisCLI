@@ -1,9 +1,9 @@
-<p><b>
+<h3><b>
 Kaitlyn Stumpf
 CSC334, Spring 2015
 3/12/2015
 Midterm, X-Ray Protein
-</b></p>
+</b></h3>
 ======================
 
 <h3>What is proteinAnalysisCLI?</h3>
@@ -17,10 +17,7 @@ From the command line, enter the project directory and run the program by typing
         python run_steps.py
 When prompted for a .pdb file, use one of the four example files provided:
 <ul>
-   <li>1HVR.pdb</li>
-   <li>4MC1.pdb</li>
-   <li>4QJ6.pdb</li>
-   <li>4U8W.pdb</li>
+   <li>1HVR.pdb, 4MC1.pdb, 4QJ6.pdb, or 4U8W.pdb</li>
 </ul>
 </p>
 
@@ -50,4 +47,9 @@ When prompted for a .pdb file, use one of the four example files provided:
 <li>Creates a script for computing bonds and then loads this script in JMol. The script creates a text file containing all of the bonds. Then reformats the bonds so that they are in pairs, with each pair written on its own line.</li>
 <li>Creates scripts for extracting the ligand with and without hydrogens added, and then runs these scripts in JMol.</li>
 </ol>
+</p>
+
+<h3>Future Endeavours</h3>
+<p>
+Create a script for extracting specifically requested chains using JMol. The script will create a text file containing all of the chains requested.
 </p>
