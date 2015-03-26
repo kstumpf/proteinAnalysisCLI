@@ -5,7 +5,8 @@ Midterm, X-Ray Protein
 ======================
 
 <h3>What is proteinAnalysisCLI?</h3>
-<p>I chose to complete the X-Ray Protein midterm.</p>
+<p>proteinAnalysisCLI is a command line interface for analyzing, extracting, pruning, and visualizing a given RCSB Protein Data Bank pdb file. It relies on the <a href="http://jmol.sourceforge.net/">jMol software</a> for visualization.
+</p>
 
 <h3>Configuration:</h3>
 <p>
@@ -18,6 +19,7 @@ When prompted for a .pdb file, use one of the four example files provided:
    <li>4MC1.pdb</li>
    <li>4QJ6.pdb</li>
    <li>4U8W.pdb</li>
+</ul>
 </p>
 
 <h3>Functionality</h3>
@@ -25,9 +27,10 @@ When prompted for a .pdb file, use one of the four example files provided:
 1. Runs isXray.py to determine if pdb file's experimental method was Xray.
    If it was, returns a ####_DATA.txt file which does the following:
    <ul>
-      <li>Describes the different molecule types present (</li>
+      <li>Describes the different molecule types present</li>
       <li>Classifies the HETATM lines</li>
       <li>Names all chains, ligands, nonstandard residues, solvents, and "something else" present</li>
+   </ul>
 2. Visualizes the protein in jMol. Flashes through chains, water, ligands, hetatms, and amino acids.
 3. Runs extract.py and extracts the molecule(s) based on the molecule type & specific molecule names provided by the user. 
    The extract options are:
@@ -35,6 +38,7 @@ When prompted for a .pdb file, use one of the four example files provided:
       <li>Single item</li>
       <li>Multiple items</li>
       <li>All items</li>
+   </ul>
 4. Runs prune.py and writes a new pdb file without solvent or "something else" HETATM lines.
 5. Runs writeHydScript.py and writes a personalized "remove hydrogens" JMol script for the pdb.
 6. Runs JMol, loads the newly written script, visualizes the pdb with hydrogens, and creates a ####_H.pdb file that contains hydrogens and renumbered ATOM lines and reorganized CONECT lines.
