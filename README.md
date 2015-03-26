@@ -1,8 +1,5 @@
 <h3><b>
-Kaitlyn Stumpf
-CSC334, Spring 2015
-3/12/2015
-Midterm, X-Ray Protein
+proteinAnalysisCLI
 </b></h3>
 ======================
 
