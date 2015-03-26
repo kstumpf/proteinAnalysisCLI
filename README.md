@@ -7,10 +7,10 @@ proteinAnalysisCLI
 
 <h3>Configuration:</h3>
 <p>
-Download the .zip file located to the right.
-From the command line, enter the project directory and run the program by typing the following: 
-        python run_steps.py
-When prompted for a .pdb file, use one of the four example files provided:
+| Download the .zip file located to the right.
+| From the command line, enter the project directory and run the program by typing the following: 
+|         python run_steps.py
+| When prompted for a .pdb file, use one of the four example files provided:
 <ul>
    <li>1HVR.pdb, 4MC1.pdb, 4QJ6.pdb, or 4U8W.pdb</li>
 </ul>
