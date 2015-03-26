@@ -1,7 +1,5 @@
-<h3><b>
 proteinAnalysisCLI
-</b></h3>
-======================
+==================
 
 <h3>What is proteinAnalysisCLI?</h3>
 <p>proteinAnalysisCLI is a command line interface for analyzing, extracting, pruning, and visualizing a given RCSB Protein Data Bank pdb file. It relies on the <a href="http://jmol.sourceforge.net/">jMol software</a> for visualization.
