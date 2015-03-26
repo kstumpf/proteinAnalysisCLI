@@ -1,0 +1,42 @@
+ Kaitlyn Stumpf                                                               
+ CSC334, Spring 2015                                                            
+ 3/11/2015                                                                            
+ Midterm1, X-Ray Protein, runPython.txt                                                                                      
+
+To run, simply enter the following on the command line:
+python run_steps.py
+
+
+Here are good things to test, in order to see the full ability of the code:
+
+When asked, input a path to each of the four pdb files. 
+Since the pdb files are in the same folder, the paths are just:
+./1HVR.pdb
+./4MC1.pdb
+./4QJ6.pdb
+./4U8W.pdb
+
+Each of the four pdb files will contain different types of molecules,
+and thus allow you to extract different things.
+
+First, when prompted, input a type (e.g. Chain).
+Then, when prompted, input a specific thing, things, or all. (e.g. A) (e.g. B C F) (e.g. All)
+Make sure to only input what is listed as a possibility.
+
+Here is what can be extracted from each file:
+1HVR.pdb: Chain, Ligand, Nonstandard Residue
+	  [[A, B], [XK2], [CSO]]
+4MC1.pdb: Chain, Solvent, Something Else
+	  [[A, B], [HOH], [CL, A526, B526, BHOH, AHOH]]
+4QJ6.pdb: Chain, Ligand, Solvent
+	  [[A,B,C,D,E,F], [SO4], [HOH]]
+4U8W.pdb: Chain, Ligand, Solvent, Something Else
+	  [[A,B], [ACT], [HOH], [AG10, BG10, NA, CL, BHOH, AHOH]]
+
+When extracting a certain type, take turns extracting:
+ one thing, 
+ multiple things (in any order, just separated with a space),
+ All.
+
+Pruning, the creation of the jmol script to place hydrogens, and execution (and visualization) of the script 
+are all done without user input and separated by a prompt asking the user whether they want to continue or quit.
